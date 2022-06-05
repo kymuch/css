@@ -1,0 +1,118 @@
+body {
+    background-color: silver;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: normal;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+    
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:visited {
+    color: gray;
+}
+
+.ava {
+    width: 200px;
+    border-radius: 30px;
+    box-shadow: 4px 4px 14px blue;
+}
+
+@media (max-width: 700px) {
+    .info {
+        display: block;
+        text-align: center;
+    }
+}
+
+.info {
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.info p {
+font-style: italic;
+margin: 15;
+}
+
+.container {
+    max-width: 750px;
+    margin: auto;
+    padding: 30px;
+}
+
+.bg-yellow {
+    background: #fff9dc;
+}
+
+.bg-green {
+    background: #e5ffe7;
+}
+
+.card {
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+.card h2 {
+    margin-bottom: 10px;
+}
+
+.list {
+    padding: 0 20;
+    list-style: none;
+    
+}
+
+.contact h2 {
+    text-align: center;
+}
+
+.group label {
+    display: block;
+
+}
+
+.group input,
+.group textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    color: #000;
+    padding: 15px 0 10px;
+    outline: none;
+    font-family: inherit;
+    background: transparent;
+}
+
+.row {
+    display: flex;
+    margin-right: 20px;
+}
+
+.info-text {
+    margin-left: 40px;
+}
+
+.btn {
+    background: #000;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 30px;
+    color: #fff;
+    font-family:  inherit;
+    cursor: pointer;
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
+
